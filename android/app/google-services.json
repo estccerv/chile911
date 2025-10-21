@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "788864970081",
+    "firebase_url": "https://chile911-a098f-default-rtdb.firebaseio.com",
+    "project_id": "chile911-a098f",
+    "storage_bucket": "chile911-a098f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788864970081:android:b77f402dbd1e53728a6920",
+        "android_client_info": {
+          "package_name": "com.mycompany.chile911"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVtIT1sxPEKigv5_GqBtJSSfySb6PiWDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788864970081:android:734002b43591b1968a6920",
+        "android_client_info": {
+          "package_name": "com.mycompany.maptest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVtIT1sxPEKigv5_GqBtJSSfySb6PiWDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
