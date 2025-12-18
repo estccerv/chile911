@@ -10,6 +10,7 @@ import 'package:flutter/material.dart';
 // Begin custom action code
 // DO NOT REMOVE OR MODIFY THE CODE ABOVE!
 
+import '/flutter_flow/custom_functions.dart' as functions;
 import 'package:sealed_countries/sealed_countries.dart';
 
 Future<List<CountryStruct>> phoneList(String? locale) async {
@@ -72,7 +73,7 @@ Future<List<CountryStruct>> phoneList(String? locale) async {
           country.idd.phoneCode(),
           country.emoji,
         ].join(' '),
-        image: 'https://flagcdn.com/h120/$countryCodeInLowerCase.png'));
+        image: functions.countryFlagImage(countryCodeInLowerCase)));
   });
   return countries;
 }

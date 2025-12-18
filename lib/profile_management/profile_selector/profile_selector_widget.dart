@@ -42,6 +42,7 @@ class _ProfileSelectorWidgetState extends State<ProfileSelectorWidget> {
         );
         safeSetState(() {
           _model.appProfileValueController?.value = FFAppState().appProfile!;
+          _model.appProfileValue = FFAppState().appProfile!;
         });
       }
     });

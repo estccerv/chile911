@@ -546,6 +546,7 @@ class _ChatWidgetState extends State<ChatWidget> {
                                           height: m.dimensions?.height,
                                           width: m.dimensions?.width,
                                           blurHash: m.blurHash,
+                                          originalFilename: m.originalFilename,
                                         ))
                                     .toList();
                               } finally {
@@ -757,7 +758,8 @@ class _ChatWidgetState extends State<ChatWidget> {
                                   _model.isDataUploading_localUpload = false;
                                   _model.uploadedLocalFile_localUpload =
                                       FFUploadedFile(
-                                          bytes: Uint8List.fromList([]));
+                                          bytes: Uint8List.fromList([]),
+                                          originalFilename: '');
                                 });
 
                                 _model.images = [];

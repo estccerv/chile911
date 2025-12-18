@@ -731,6 +731,8 @@ class _CreateAlertWidgetState extends State<CreateAlertWidget> {
                                                                     ?.width,
                                                                 blurHash:
                                                                     m.blurHash,
+                                                                originalFilename:
+                                                                    m.originalFilename,
                                                               ))
                                                       .toList();
                                             } finally {

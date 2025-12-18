@@ -119,7 +119,7 @@ class OnboardModel extends FlutterFlowModel<OnboardWidget> {
 
   bool isDataUploading_frontImage = false;
   FFUploadedFile uploadedLocalFile_frontImage =
-      FFUploadedFile(bytes: Uint8List.fromList([]));
+      FFUploadedFile(bytes: Uint8List.fromList([]), originalFilename: '');
 
   // State field(s) for bloodType widget.
   UserBloodType? bloodTypeValue;
@@ -192,7 +192,7 @@ class OnboardModel extends FlutterFlowModel<OnboardWidget> {
   late FlutterFlowDynamicModels<CustomInputModel> customInputModels4;
   bool isDataUploading_uploadFrontImage = false;
   FFUploadedFile uploadedLocalFile_uploadFrontImage =
-      FFUploadedFile(bytes: Uint8List.fromList([]));
+      FFUploadedFile(bytes: Uint8List.fromList([]), originalFilename: '');
   String uploadedFileUrl_uploadFrontImage = '';
 
   // Model for basicSettings component.

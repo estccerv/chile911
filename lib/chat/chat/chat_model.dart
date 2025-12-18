@@ -42,13 +42,13 @@ class ChatModel extends FlutterFlowModel<ChatWidget> {
   String? Function(BuildContext, String?)? messageInputTextControllerValidator;
   bool isDataUploading_localUpload = false;
   FFUploadedFile uploadedLocalFile_localUpload =
-      FFUploadedFile(bytes: Uint8List.fromList([]));
+      FFUploadedFile(bytes: Uint8List.fromList([]), originalFilename: '');
 
   // Stores action output result for [Backend Call - Create Document] action in sendMessageButton widget.
   ChatsRecord? newChat;
   bool isDataUploading_storageUpload = false;
   FFUploadedFile uploadedLocalFile_storageUpload =
-      FFUploadedFile(bytes: Uint8List.fromList([]));
+      FFUploadedFile(bytes: Uint8List.fromList([]), originalFilename: '');
   String uploadedFileUrl_storageUpload = '';
 
   // Stores action output result for [Backend Call - Create Document] action in sendMessageButton widget.

@@ -312,3 +312,11 @@ DocumentReference directChatRef(
   //    utilizando el ID que acabamos de generar.
   return FirebaseFirestore.instance.collection('chats').doc(chatDocumentId);
 }
+
+String countryFlagImage(String? countryCodeInLowerCase) {
+  // return a mage: 'https://flagcdn.com/h120/$countryCodeInLowerCase.png'));
+  if (countryCodeInLowerCase == null || countryCodeInLowerCase.isEmpty) {
+    return '';
+  }
+  return 'https://flagcdn.com/h120/$countryCodeInLowerCase.png';
+}

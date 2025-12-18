@@ -493,6 +493,8 @@ class _OnboardWidgetState extends State<OnboardWidget> {
                                                                           ?.width,
                                                                       blurHash:
                                                                           m.blurHash,
+                                                                      originalFilename:
+                                                                          m.originalFilename,
                                                                     ))
                                                                 .toList();
                                                       } finally {

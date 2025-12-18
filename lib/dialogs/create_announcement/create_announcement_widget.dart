@@ -789,6 +789,8 @@ class _CreateAnnouncementWidgetState extends State<CreateAnnouncementWidget> {
                                                   height: m.dimensions?.height,
                                                   width: m.dimensions?.width,
                                                   blurHash: m.blurHash,
+                                                  originalFilename:
+                                                      m.originalFilename,
                                                 ))
                                             .toList();
                                       } finally {

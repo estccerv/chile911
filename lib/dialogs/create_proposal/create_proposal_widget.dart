@@ -568,6 +568,8 @@ class _CreateProposalWidgetState extends State<CreateProposalWidget> {
                                                   height: m.dimensions?.height,
                                                   width: m.dimensions?.width,
                                                   blurHash: m.blurHash,
+                                                  originalFilename:
+                                                      m.originalFilename,
                                                 ))
                                             .toList();
                                       } finally {
